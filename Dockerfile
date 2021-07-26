@@ -1,7 +1,7 @@
 # syntax=docker/dockerfile:1
 
 FROM node:12-alpine as builder
-WORKDIR /frontend
-COPY package.json /frontend/package.json
+WORKDIR /blog_ke_frontend
+COPY package.json /blog_ke_frontend/package.json
 RUN npm install
-COPY . /frontend
+COPY . /blog_ke_frontend
