@@ -40,7 +40,7 @@ const BlogDetail = (props) => {
             <hr />
             <p className={"lead mb-5"}><Link to={"/blog"} className={"font-weight-bold"}>Back to Blogs</Link></p>
         </div>
-    )
+    );
     };
 
 export default BlogDetail;
